@@ -1,0 +1,14 @@
+1. create new angular project using ng new angularapp command
+2. Then change the path u into angularapp folder
+3. Create the dist folder using ng build command
+4. Create Dockerfile
+5. Create the new image named angular-app1 using 
+docker build -t uma888\angular-app1
+6. Run the image using docker run -d -p 80:80 uma88/angular-app1:latest
+7. Push the image into the dockerhub
+8. On Ec2 dashboard click on instances
+9. Create my-ec2-instance
+10. On git bash install docker and pull the image from docker hub
+11. Run the image using sudo docker run -d -p 8081:80 uma88/angular-app1
+12. Then click my-ec2-instance click Ip address ipv4
+then we see the output window
